@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://M/jam.png" id="1_v6amq"]
+[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_8nkjb"]
+
+[resource]
+script = ExtResource("2_8nkjb")
+item_id = &"jam"
+display_name = "Jam"
+size_x = 1
+size_y = 2
+icon = ExtResource("1_v6amq")
+can_rotate = true
+category = 0
+equip_slot = 0

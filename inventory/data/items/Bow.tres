@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://M/bow.png" id="1_8vca0"]
+[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_xvdgk"]
+
+[resource]
+script = ExtResource("2_xvdgk")
+item_id = &"bow"
+display_name = "Bow"
+size_x = 1
+size_y = 3
+icon = ExtResource("1_8vca0")
+can_rotate = true
+category = 1
+equip_slot = 1

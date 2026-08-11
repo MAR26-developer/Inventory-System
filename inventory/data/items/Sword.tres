@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://M/Sword.png" id="1_mt508"]
+[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_tbg0b"]
+
+[resource]
+script = ExtResource("2_tbg0b")
+item_id = &"sword"
+display_name = "Sword"
+size_x = 1
+size_y = 3
+icon = ExtResource("1_mt508")
+can_rotate = true
+category = 1
+equip_slot = 1

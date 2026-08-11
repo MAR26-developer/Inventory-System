@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://M/strange egg.png" id="1_vbsd1"]
+[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_mre4u"]
+
+[resource]
+script = ExtResource("2_mre4u")
+item_id = &"strange_egg"
+display_name = "Strange Egg"
+size_x = 1
+size_y = 1
+icon = ExtResource("1_vbsd1")
+can_rotate = true
+category = 0
+equip_slot = 0

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://M/Shield.png" id="1_1y4xe"]
+[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_3560q"]
+
+[resource]
+script = ExtResource("2_3560q")
+item_id = &"shield"
+display_name = "Shield"
+size_x = 4
+size_y = 4
+icon = ExtResource("1_1y4xe")
+can_rotate = true
+category = 3
+equip_slot = 1

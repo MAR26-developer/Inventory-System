@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://M/CoreArmor.png" id="1_nftj8"]
+[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_ejo3t"]
+
+[resource]
+script = ExtResource("2_ejo3t")
+item_id = &"core_armor"
+display_name = "Core Armor"
+size_x = 2
+size_y = 3
+icon = ExtResource("1_nftj8")
+can_rotate = true
+category = 2
+equip_slot = 3

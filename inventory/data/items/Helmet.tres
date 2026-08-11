@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://M/Helmet.png" id="1_6ol0k"]
+[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_a70cb"]
+
+[resource]
+script = ExtResource("2_a70cb")
+item_id = &"helmet"
+display_name = "Helmet"
+size_x = 4
+size_y = 4
+icon = ExtResource("1_6ol0k")
+can_rotate = true
+category = 2
+equip_slot = 2
