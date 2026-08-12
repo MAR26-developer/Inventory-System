@@ -10,7 +10,7 @@ enum Category {
 	EQUIPABLE,
 }
 
-## Tipo de slot compatible. Left/Right Hand lo resolverá EquipmentSystem más adelante.
+## Tipo de slot compatible. HAND se resuelve a LEFT_HAND/RIGHT_HAND en EquipmentSystem.
 enum EquipSlot {
 	NONE,
 	HAND,
@@ -21,6 +21,7 @@ enum EquipSlot {
 
 @export var item_id: StringName = &""
 @export var display_name: String = ""
+@export_multiline var description: String = ""
 @export_range(1, 64, 1) var size_x: int = 1:
 	set(value):
 		size_x = maxi(1, value)
@@ -31,6 +32,9 @@ enum EquipSlot {
 @export var can_rotate: bool = true
 @export var category: Category = Category.CONSUMABLE
 @export var equip_slot: EquipSlot = EquipSlot.NONE
+@export var inventory_sound: AudioStream
+## Usos máximos estáticos (consumibles). 0 = no consumible por usos. El remaining vive en ItemInstance.
+@export var max_uses: int = 0
 
 
 func get_size() -> Vector2i:
@@ -40,3 +44,16 @@ func get_size() -> Vector2i:
 ## Tamaño tras rotar 90°. No modifica size_x ni size_y.
 func get_rotated_size() -> Vector2i:
 	return Vector2i(size_y, size_x)
+
+
+func is_consumable() -> bool:
+	return category == Category.CONSUMABLE and max_uses > 0
+
+
+func is_equipable() -> bool:
+	return equip_slot != EquipSlot.NONE
+
+
+## Water (u objetos con barra de usos): max_uses > 1 suele mostrar barra.
+func shows_use_bar() -> bool:
+	return item_id == &"water" and max_uses > 0

@@ -1,15 +1,18 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://q40j2emc44pn"]
 
-[ext_resource type="Texture2D" path="res://sprites/Sword.png" id="1_mt508"]
-[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_tbg0b"]
+[ext_resource type="Texture2D" uid="uid://bqvxy0r0rsp13" path="res://sprites/Sword.png" id="1_mt508"]
+[ext_resource type="AudioStream" uid="uid://b26aex7sgxmql" path="res://SFX/metal-clash.wav" id="2_7kq6i"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="2_tbg0b"]
 
 [resource]
 script = ExtResource("2_tbg0b")
 item_id = &"sword"
 display_name = "Sword"
+description = "Tradicional, clásica, confiable."
 size_x = 1
 size_y = 3
 icon = ExtResource("1_mt508")
 can_rotate = true
 category = 1
 equip_slot = 1
+inventory_sound = ExtResource("2_7kq6i")

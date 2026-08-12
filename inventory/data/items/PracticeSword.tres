@@ -1,15 +1,18 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://cf2onnw6bx68u"]
 
-[ext_resource type="Texture2D" path="res://sprites/Practice sword.png" id="1_ltrk0"]
-[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_pfea6"]
+[ext_resource type="Texture2D" uid="uid://jqwaadvdtedo" path="res://sprites/Practice sword.png" id="1_ltrk0"]
+[ext_resource type="AudioStream" uid="uid://b26aex7sgxmql" path="res://SFX/metal-clash.wav" id="2_j277j"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="2_pfea6"]
 
 [resource]
 script = ExtResource("2_pfea6")
 item_id = &"practice_sword"
 display_name = "Practice Sword"
+description = "Hoja sin filo, es para práctica."
 size_x = 1
 size_y = 3
 icon = ExtResource("1_ltrk0")
 can_rotate = true
 category = 1
 equip_slot = 1
+inventory_sound = ExtResource("2_j277j")

@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Inventory"
+run/main_scene="res://inventory/ui/inventory_demo.tscn"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 
 [rendering]

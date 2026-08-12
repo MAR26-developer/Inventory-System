@@ -1,15 +1,18 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://bqdocamolhspa"]
 
-[ext_resource type="Texture2D" path="res://sprites/Enchant Book.png" id="1_l7mwe"]
-[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_i7ysv"]
+[ext_resource type="Texture2D" uid="uid://cygetfo0gmxr2" path="res://sprites/Enchant Book.png" id="1_l7mwe"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="2_i7ysv"]
+[ext_resource type="AudioStream" uid="uid://cjq2et6562mk7" path="res://SFX/turn_page.wav" id="2_padqj"]
 
 [resource]
 script = ExtResource("2_i7ysv")
 item_id = &"enchant_book"
 display_name = "Enchant Book"
+description = "Un libro que puedes leer para amplificar tus hechizos"
 size_x = 1
 size_y = 2
 icon = ExtResource("1_l7mwe")
 can_rotate = true
 category = 3
 equip_slot = 1
+inventory_sound = ExtResource("2_padqj")

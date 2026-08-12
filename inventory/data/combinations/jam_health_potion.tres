@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CombinationData" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://inventory/data/items/Jam.tres" id="1_xm0gp"]
+[ext_resource type="Resource" path="res://inventory/data/items/HealthPotion.tres" id="2_hu03h"]
+[ext_resource type="Resource" path="res://inventory/data/items/HealthPotionWithJam.tres" id="3_03gks"]
+[ext_resource type="Script" path="res://inventory/data/combination_data.gd" id="4_0pgn1"]
+
+[resource]
+script = ExtResource("4_0pgn1")
+item_a = ExtResource("1_xm0gp")
+item_b = ExtResource("2_hu03h")
+result = ExtResource("3_03gks")

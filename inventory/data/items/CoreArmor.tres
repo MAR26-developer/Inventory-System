@@ -1,15 +1,19 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://b5oxpa5xywcrv"]
 
-[ext_resource type="Texture2D" path="res://sprites/CoreArmor.png" id="1_nftj8"]
-[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_ejo3t"]
+[ext_resource type="Texture2D" uid="uid://cqc7rwhsavq6c" path="res://sprites/CoreArmor.png" id="1_nftj8"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="2_ejo3t"]
+[ext_resource type="AudioStream" uid="uid://b26aex7sgxmql" path="res://SFX/metal-clash.wav" id="2_odiih"]
 
 [resource]
 script = ExtResource("2_ejo3t")
 item_id = &"core_armor"
 display_name = "Core Armor"
+description = "Coraza que te protegerá ante todo...
+...casi todo."
 size_x = 2
 size_y = 3
 icon = ExtResource("1_nftj8")
 can_rotate = true
 category = 2
 equip_slot = 3
+inventory_sound = ExtResource("2_odiih")

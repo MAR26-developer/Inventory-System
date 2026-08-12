@@ -1,15 +1,18 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://cddtup770nuuq"]
 
-[ext_resource type="Texture2D" path="res://sprites/ring.png" id="1_r1sd4"]
-[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_es32x"]
+[ext_resource type="Texture2D" uid="uid://me4yy4y15a1p" path="res://sprites/ring.png" id="1_r1sd4"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="2_es32x"]
+[ext_resource type="AudioStream" uid="uid://psg6aw6h8ahp" path="res://SFX/ring_inventory.wav" id="2_esesj"]
 
 [resource]
 script = ExtResource("2_es32x")
 item_id = &"ring"
 display_name = "Ring"
+description = "Anillo de oro, amplifica tu poder y estatus."
 size_x = 1
 size_y = 1
 icon = ExtResource("1_r1sd4")
 can_rotate = true
 category = 3
 equip_slot = 4
+inventory_sound = ExtResource("2_esesj")

@@ -1,15 +1,18 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://cxajempj58bxi"]
 
-[ext_resource type="Texture2D" path="res://sprites/Kings sword.png" id="1_qc2ml"]
-[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_s4lqn"]
+[ext_resource type="Texture2D" uid="uid://d3gygpo2pg4ve" path="res://sprites/Kings sword.png" id="1_qc2ml"]
+[ext_resource type="AudioStream" uid="uid://b26aex7sgxmql" path="res://SFX/metal-clash.wav" id="2_aak1u"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="2_s4lqn"]
 
 [resource]
 script = ExtResource("2_s4lqn")
 item_id = &"big_sword"
 display_name = "Big Sword"
+description = "Una espada muy grande, parece haber sido de alguien importante."
 size_x = 1
 size_y = 4
 icon = ExtResource("1_qc2ml")
 can_rotate = true
 category = 1
 equip_slot = 1
+inventory_sound = ExtResource("2_aak1u")

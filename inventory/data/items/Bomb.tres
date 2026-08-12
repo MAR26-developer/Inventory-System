@@ -1,15 +1,19 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3]
 
 [ext_resource type="Texture2D" path="res://sprites/explosive.png" id="1_onrxa"]
 [ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_duri2"]
+[ext_resource type="AudioStream" path="res://SFX/leather_inventory.wav" id="2_ibx73"]
 
 [resource]
 script = ExtResource("2_duri2")
 item_id = &"bomb"
 display_name = "Bomb"
+description = "Cuidado al momento de usarla, necesitas tus dedos."
 size_x = 1
 size_y = 1
 icon = ExtResource("1_onrxa")
 can_rotate = true
 category = 0
 equip_slot = 0
+inventory_sound = ExtResource("2_ibx73")
+max_uses = 1

@@ -1,15 +1,18 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://dftc7k8sqy3ll"]
 
-[ext_resource type="Texture2D" path="res://sprites/silver ring.png" id="1_owc4x"]
-[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_medrl"]
+[ext_resource type="Texture2D" uid="uid://bam8coccwx1c1" path="res://sprites/silver ring.png" id="1_owc4x"]
+[ext_resource type="AudioStream" uid="uid://psg6aw6h8ahp" path="res://SFX/ring_inventory.wav" id="2_lv0d1"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="2_medrl"]
 
 [resource]
 script = ExtResource("2_medrl")
 item_id = &"silver_ring"
 display_name = "Silver Ring"
+description = "Anillo de plata, aumenta tu habilidad con la espada."
 size_x = 1
 size_y = 1
 icon = ExtResource("1_owc4x")
 can_rotate = true
 category = 3
 equip_slot = 4
+inventory_sound = ExtResource("2_lv0d1")

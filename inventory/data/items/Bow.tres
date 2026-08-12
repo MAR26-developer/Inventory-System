@@ -1,15 +1,18 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://bj70ww8fow5kg"]
 
-[ext_resource type="Texture2D" path="res://sprites/bow.png" id="1_8vca0"]
-[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_xvdgk"]
+[ext_resource type="Texture2D" uid="uid://cqax7uppkv0sj" path="res://sprites/bow.png" id="1_8vca0"]
+[ext_resource type="AudioStream" uid="uid://bkx4y5lf4io0b" path="res://SFX/cloth-inventory.wav" id="2_jne1c"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="2_xvdgk"]
 
 [resource]
 script = ExtResource("2_xvdgk")
 item_id = &"bow"
 display_name = "Bow"
+description = "Con esto tus enemigos se van a hartar de ti."
 size_x = 1
 size_y = 3
 icon = ExtResource("1_8vca0")
 can_rotate = true
 category = 1
 equip_slot = 1
+inventory_sound = ExtResource("2_jne1c")

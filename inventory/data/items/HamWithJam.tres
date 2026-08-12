@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://dhjqckj47e4hp"]
+
+[ext_resource type="Texture2D" uid="uid://d51jt43678wt" path="res://sprites/ham with jam.png" id="1_2a80d"]
+[ext_resource type="AudioStream" uid="uid://cyvj22qqc3bmf" path="res://SFX/leather_inventory.wav" id="2_wa4wh"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="3_s8udr"]
+
+[resource]
+script = ExtResource("3_s8udr")
+item_id = &"ham_with_jam"
+display_name = "Ham with Jam"
+description = "¿¡Eres un psicopata!?, que le hiciste!!...bueno tal vez no está mal."
+size_x = 2
+size_y = 1
+icon = ExtResource("1_2a80d")
+can_rotate = true
+category = 0
+equip_slot = 0
+inventory_sound = ExtResource("2_wa4wh")

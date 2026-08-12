@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://xbwphr5v5drc"]
+
+[ext_resource type="Texture2D" uid="uid://mj5vw3lu1g4b" path="res://sprites/Health Potion with jam.png" id="1_tqux3"]
+[ext_resource type="AudioStream" uid="uid://cyvj22qqc3bmf" path="res://SFX/leather_inventory.wav" id="2_mp1fq"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="3_uuvom"]
+
+[resource]
+script = ExtResource("3_uuvom")
+item_id = &"health_potion_with_jam"
+display_name = "Health Potion with Jam"
+description = "Para que te...¿le pusiste mermelada?, quizá ya nadie se preocupa por el sabor..."
+size_x = 1
+size_y = 2
+icon = ExtResource("1_tqux3")
+can_rotate = true
+category = 0
+equip_slot = 0
+inventory_sound = ExtResource("2_mp1fq")

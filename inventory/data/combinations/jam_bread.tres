@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CombinationData" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://inventory/data/items/Jam.tres" id="1_2u8vl"]
+[ext_resource type="Resource" path="res://inventory/data/items/Bread.tres" id="2_3qv51"]
+[ext_resource type="Resource" path="res://inventory/data/items/BreadWithJam.tres" id="3_8yppu"]
+[ext_resource type="Script" path="res://inventory/data/combination_data.gd" id="4_258ol"]
+
+[resource]
+script = ExtResource("4_258ol")
+item_a = ExtResource("1_2u8vl")
+item_b = ExtResource("2_3qv51")
+result = ExtResource("3_8yppu")

@@ -1,15 +1,18 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://csp3ka23x0ubh"]
 
-[ext_resource type="Texture2D" path="res://sprites/Shield.png" id="1_1y4xe"]
-[ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_3560q"]
+[ext_resource type="Texture2D" uid="uid://ddom1rssbsk66" path="res://sprites/Shield.png" id="1_1y4xe"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="2_3560q"]
+[ext_resource type="AudioStream" uid="uid://bkx4y5lf4io0b" path="res://SFX/cloth-inventory.wav" id="2_kn5kp"]
 
 [resource]
 script = ExtResource("2_3560q")
 item_id = &"shield"
 display_name = "Shield"
-size_x = 4
-size_y = 4
+description = "Nunca viene mal."
+size_x = 2
+size_y = 2
 icon = ExtResource("1_1y4xe")
 can_rotate = true
 category = 3
 equip_slot = 1
+inventory_sound = ExtResource("2_kn5kp")

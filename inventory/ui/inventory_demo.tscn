@@ -1,0 +1,50 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://inventory/ui/inventory_demo.gd" id="1_demo"]
+[ext_resource type="Script" path="res://inventory/ui/inventory_ui.gd" id="2_inv_ui"]
+[ext_resource type="Script" path="res://inventory/ui/inventory_audio.gd" id="3_audio"]
+[ext_resource type="Texture2D" uid="uid://bxjt2hfy1vkae" path="res://sprites/Inventory.png" id="4_player_bg"]
+[ext_resource type="Texture2D" uid="uid://dqfs0n5x33r7x" path="res://sprites/Inventory 2.png" id="5_external_bg"]
+
+[node name="InventoryDemo" type="Node2D"]
+script = ExtResource("1_demo")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(340, 220)
+zoom = Vector2(1, 1)
+
+[node name="InventoryWorld" type="Node2D" parent="."]
+
+[node name="PlayerInventory" type="Node2D" parent="InventoryWorld"]
+position = Vector2(100, 100)
+script = ExtResource("2_inv_ui")
+columns = 8
+rows = 8
+background_texture = ExtResource("4_player_bg")
+
+[node name="Background" type="Sprite2D" parent="InventoryWorld/PlayerInventory"]
+texture_filter = 1
+texture = ExtResource("4_player_bg")
+centered = false
+
+[node name="Items" type="Node2D" parent="InventoryWorld/PlayerInventory"]
+
+[node name="ExternalInventory" type="Node2D" parent="InventoryWorld"]
+position = Vector2(350, 100)
+script = ExtResource("2_inv_ui")
+columns = 16
+rows = 16
+background_texture = ExtResource("5_external_bg")
+
+[node name="Background" type="Sprite2D" parent="InventoryWorld/ExternalInventory"]
+texture_filter = 1
+texture = ExtResource("5_external_bg")
+centered = false
+
+[node name="Items" type="Node2D" parent="InventoryWorld/ExternalInventory"]
+
+[node name="DragLayer" type="Node2D" parent="InventoryWorld"]
+z_index = 50
+
+[node name="InventoryAudio" type="Node" parent="."]
+script = ExtResource("3_audio")

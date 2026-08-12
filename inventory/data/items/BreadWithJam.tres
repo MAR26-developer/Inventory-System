@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://d4ar5164ox7yb"]
+
+[ext_resource type="Texture2D" uid="uid://cq002235n627v" path="res://sprites/bread with jam.png" id="1_d6cny"]
+[ext_resource type="AudioStream" uid="uid://cyvj22qqc3bmf" path="res://SFX/leather_inventory.wav" id="2_updkf"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="3_m08yp"]
+
+[resource]
+script = ExtResource("3_m08yp")
+item_id = &"bread_with_jam"
+display_name = "Bread with Jam"
+description = "Qué hiciste?, bueno, está rico."
+size_x = 1
+size_y = 1
+icon = ExtResource("1_d6cny")
+can_rotate = true
+category = 0
+equip_slot = 0
+inventory_sound = ExtResource("2_updkf")

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3 uid="uid://mk0gj4sqbl1w"]
+
+[ext_resource type="Texture2D" uid="uid://crovtcjd4f4bn" path="res://sprites/jam ring.png" id="1_575ig"]
+[ext_resource type="AudioStream" uid="uid://psg6aw6h8ahp" path="res://SFX/ring_inventory.wav" id="2_qgao1"]
+[ext_resource type="Script" uid="uid://cc8ty83gb6q08" path="res://inventory/data/item_data.gd" id="3_x2iq7"]
+
+[resource]
+script = ExtResource("3_x2iq7")
+item_id = &"jam_ring"
+display_name = "Jam Ring"
+description = "Poder y dulzor amplificados, pero, se te pone melosa la mano."
+size_x = 1
+size_y = 1
+icon = ExtResource("1_575ig")
+can_rotate = true
+category = 3
+equip_slot = 4
+inventory_sound = ExtResource("2_qgao1")

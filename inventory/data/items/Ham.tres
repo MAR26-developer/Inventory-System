@@ -1,15 +1,19 @@
-[gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
+[gd_resource type="Resource" script_class="ItemData" load_steps=4 format=3]
 
 [ext_resource type="Texture2D" path="res://sprites/ham.png" id="1_4dnkr"]
+[ext_resource type="AudioStream" path="res://SFX/leather_inventory.wav" id="2_fndk7"]
 [ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_x4w1d"]
 
 [resource]
 script = ExtResource("2_x4w1d")
 item_id = &"ham"
 display_name = "Ham"
+description = "Un jamón es lo único que necesitas para tu viaje."
 size_x = 2
 size_y = 1
 icon = ExtResource("1_4dnkr")
 can_rotate = true
 category = 0
 equip_slot = 0
+inventory_sound = ExtResource("2_fndk7")
+max_uses = 1

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CombinationData" load_steps=5 format=3]
+
+[ext_resource type="Resource" path="res://inventory/data/items/Jam.tres" id="1_741df"]
+[ext_resource type="Resource" path="res://inventory/data/items/Ring.tres" id="2_b68nk"]
+[ext_resource type="Resource" path="res://inventory/data/items/JamRing.tres" id="3_y4koj"]
+[ext_resource type="Script" path="res://inventory/data/combination_data.gd" id="4_cdpjw"]
+
+[resource]
+script = ExtResource("4_cdpjw")
+item_a = ExtResource("1_741df")
+item_b = ExtResource("2_b68nk")
+result = ExtResource("3_y4koj")
