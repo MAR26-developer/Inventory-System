@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cq002235n627v"
-path="res://.godot/imported/bread with jam.png-d2776b5cbce8cb9719284075d31dc374.ctex"
+path="res://.godot/imported/bread with jam.png-b003fde3413099ebadceb1d8aa800696.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://M/bread with jam.png"
-dest_files=["res://.godot/imported/bread with jam.png-d2776b5cbce8cb9719284075d31dc374.ctex"]
+source_file="res://sprites/bread with jam.png"
+dest_files=["res://.godot/imported/bread with jam.png-b003fde3413099ebadceb1d8aa800696.ctex"]
 
 [params]
 

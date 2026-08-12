@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dux5cicuq8dn2"
-path="res://.godot/imported/it looks like a potion but is jam.png-c9a2a2345c2f5430c221d58112335933.ctex"
+path="res://.godot/imported/it looks like a potion but is jam.png-175493bbbc9b60b8cd911b80ddc334bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://M/it looks like a potion but is jam.png"
-dest_files=["res://.godot/imported/it looks like a potion but is jam.png-c9a2a2345c2f5430c221d58112335933.ctex"]
+source_file="res://sprites/it looks like a potion but is jam.png"
+dest_files=["res://.godot/imported/it looks like a potion but is jam.png-175493bbbc9b60b8cd911b80ddc334bc.ctex"]
 
 [params]
 

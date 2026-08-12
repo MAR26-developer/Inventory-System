@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://crovtcjd4f4bn"
-path="res://.godot/imported/jam ring.png-7beb22326b34cce23144d1604dd6d520.ctex"
+path="res://.godot/imported/jam ring.png-1a63b695844f7dc8d53ec5111d714036.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://M/jam ring.png"
-dest_files=["res://.godot/imported/jam ring.png-7beb22326b34cce23144d1604dd6d520.ctex"]
+source_file="res://sprites/jam ring.png"
+dest_files=["res://.godot/imported/jam ring.png-1a63b695844f7dc8d53ec5111d714036.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://cyvj22qqc3bmf"
-path="res://.godot/imported/leather_inventory.wav-b13ab2c3b1b790d02971cd56d308716f.sample"
+path="res://.godot/imported/leather_inventory.wav-8aee023dcad3ef928d824ff3506b48d6.sample"
 
 [deps]
 
-source_file="res://M/inventory_sound_effects/leather_inventory.wav"
-dest_files=["res://.godot/imported/leather_inventory.wav-b13ab2c3b1b790d02971cd56d308716f.sample"]
+source_file="res://SFX/leather_inventory.wav"
+dest_files=["res://.godot/imported/leather_inventory.wav-8aee023dcad3ef928d824ff3506b48d6.sample"]
 
 [params]
 

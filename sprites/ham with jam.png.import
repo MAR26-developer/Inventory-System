@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d51jt43678wt"
-path="res://.godot/imported/ham with jam.png-86eb8dff99f3539b61fd4e4c8fe3d8ba.ctex"
+path="res://.godot/imported/ham with jam.png-b7f60323bf0a6197f12b434c2e52d3eb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://M/ham with jam.png"
-dest_files=["res://.godot/imported/ham with jam.png-86eb8dff99f3539b61fd4e4c8fe3d8ba.ctex"]
+source_file="res://sprites/ham with jam.png"
+dest_files=["res://.godot/imported/ham with jam.png-b7f60323bf0a6197f12b434c2e52d3eb.ctex"]
 
 [params]
 

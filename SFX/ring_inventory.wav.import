@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://psg6aw6h8ahp"
-path="res://.godot/imported/ring_inventory.wav-b94e4c3a4f45c1ddcb53f43f8f5f3de1.sample"
+path="res://.godot/imported/ring_inventory.wav-daef16994bc4e7952c572bbf603c1aa7.sample"
 
 [deps]
 
-source_file="res://M/inventory_sound_effects/ring_inventory.wav"
-dest_files=["res://.godot/imported/ring_inventory.wav-b94e4c3a4f45c1ddcb53f43f8f5f3de1.sample"]
+source_file="res://SFX/ring_inventory.wav"
+dest_files=["res://.godot/imported/ring_inventory.wav-daef16994bc4e7952c572bbf603c1aa7.sample"]
 
 [params]
 

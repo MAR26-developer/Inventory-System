@@ -1,6 +1,6 @@
 [gd_resource type="Resource" script_class="ItemData" load_steps=3 format=3]
 
-[ext_resource type="Texture2D" path="res://M/Health Potion.png" id="1_18ye0"]
+[ext_resource type="Texture2D" path="res://sprites/Health Potion.png" id="1_18ye0"]
 [ext_resource type="Script" path="res://inventory/data/item_data.gd" id="2_i7jff"]
 
 [resource]

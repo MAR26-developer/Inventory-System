@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oh7f7r370wyi"
-path="res://.godot/imported/WaterBar3.png-c2140af69d7d7365f322914f3c6ac2e3.ctex"
+path="res://.godot/imported/WaterBar3.png-d74c53658f1382a3ee4674d6d5eaf642.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://M/WaterBar3.png"
-dest_files=["res://.godot/imported/WaterBar3.png-c2140af69d7d7365f322914f3c6ac2e3.ctex"]
+source_file="res://sprites/WaterBar3.png"
+dest_files=["res://.godot/imported/WaterBar3.png-d74c53658f1382a3ee4674d6d5eaf642.ctex"]
 
 [params]
 

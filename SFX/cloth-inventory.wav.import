@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://bkx4y5lf4io0b"
-path="res://.godot/imported/cloth-inventory.wav-67683f90612801dd0dbb907418a59815.sample"
+path="res://.godot/imported/cloth-inventory.wav-fe8ad1718b471745c7ee117b3f67c319.sample"
 
 [deps]
 
-source_file="res://M/inventory_sound_effects/cloth-inventory.wav"
-dest_files=["res://.godot/imported/cloth-inventory.wav-67683f90612801dd0dbb907418a59815.sample"]
+source_file="res://SFX/cloth-inventory.wav"
+dest_files=["res://.godot/imported/cloth-inventory.wav-fe8ad1718b471745c7ee117b3f67c319.sample"]
 
 [params]
 
